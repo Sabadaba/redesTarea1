@@ -103,8 +103,8 @@ class NTPPacket(object):
         self.tx_timestamp = _to_time(unpacked[13], unpacked[14])
 
 
-localIP     = "192.168.1.120"
-localPort   = 1000
+localIP     = "192.168.1.114"
+localPort   = 9000
 bufferSize  = struct.calcsize(NTPFORMAT)
 
 
