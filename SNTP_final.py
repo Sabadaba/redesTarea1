@@ -7,7 +7,7 @@ import zlib
 
 NTPFORMAT = "!B B B b 11I"
 TIME1970 = 2208988800
-serverAddressPort   = ("192.168.1.120", 9090)
+serverAddressPort   = ("192.168.1.114", 9090)
 bufferSize          = struct.calcsize(NTPFORMAT)
 
 def _to_int(timestamp):
