@@ -104,7 +104,7 @@ class NTPPacket(object):
 
 
 localIP     = "192.168.1.120"
-localPort   = 12000
+localPort   = 1000
 bufferSize  = struct.calcsize(NTPFORMAT)
 
 
